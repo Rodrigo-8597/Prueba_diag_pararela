@@ -1,0 +1,19 @@
+Pregunta 2: 
+
+SELECT name, start_date, AVG(score), STD(score), MIN(score), MAX(score) FROM course WHERE name = "" AND YEAR(start_date) = "";
+
+Pregunta 3:
+
+¿En qué consiste la exclusión mutua?
+
+R: La exclusión mutua se produce cuando dos o más procesos no pueden entrar a su sección critica al mismo tiempo,donde la sección critica determina una forma de prohibir que más de un proceso lea o escriba en los datos compartidos en un mismo tiempo.
+
+Pregunta 4:
+
+¿Qué es un sockets? 
+
+R:
+
+Es una interfaz de entrada-salida de datos que permite la intercomunicación entre proces-os.
+ 
+Los procesos pueden estar ejecutándose en el mismo o en distintos sistemas, unidos mediante una red.
