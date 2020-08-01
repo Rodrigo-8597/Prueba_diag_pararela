@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 #include <string.h>
-#include <conio.h>
+
 
 int main(){
     string arreglo_1[50]; //Arreglo que guardara cada letra de la palabra
